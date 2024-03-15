@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Windows.Input;
 using CommandSystem;
+using DBlockLock.Configs;
 using Exiled;
 using Exiled.API.Enums;
 using Exiled.API.Features;
@@ -35,7 +36,8 @@ namespace DBlockLock.Commands
             foreach (Door d in Door.List)
                 if (d.Type == DoorType.PrisonDoor)
                     d.ChangeLock(DoorLockType.None);
-            Exiled.API.Features.Log.Info("Unlocked D!");
+            if (DBlockLock.Instance.Config.Debug)
+                Log.Info("Unlocked D!");
             response = "Unlocked D";
             return true;
         }

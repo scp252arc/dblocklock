@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Windows.Input;
 using CommandSystem;
+using DBlockLock.Configs;
 using Exiled;
 using Exiled.API.Enums;
 using Exiled.API.Features;
 using Exiled.API.Features.Doors;
 using Exiled.API.Features.Pickups;
 using Exiled.Permissions.Extensions;
-using GameCore;
 using RemoteAdmin;
+using DBlockLock;
 
 namespace DBlockLock.Commands
 {
@@ -36,7 +37,8 @@ namespace DBlockLock.Commands
             foreach (Door d in Door.List)
                 if (d.Type == DoorType.PrisonDoor)
                       d.ChangeLock(DoorLockType.Isolation);
-            Exiled.API.Features.Log.Info("Locked D!");
+            if(DBlockLock.Instance.Config.Debug)
+              Log.Info("Locked D!");
             response = "Locked D";
             return true;
         }

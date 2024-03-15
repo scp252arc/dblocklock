@@ -5,9 +5,8 @@ namespace DBlockLock.Configs
 {
     public class Config : IConfig
     {
-        [Description("Is enabled?")]
         public bool IsEnabled { get; set; } = true;
-        [Description("Is debugging?")]
+        [Description("Should debug messages be shown?")]
         public bool Debug { get; set; } = false;
     }
 }
