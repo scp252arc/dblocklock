@@ -1,10 +1,10 @@
 # DBlockLock
 Locks all D-cell doors, helpful for events.
 
-# Installation
+## Installation
 Download .dll file and drag it to `AppData\Roaming\EXILED\Plugins`
 
-# Using
+## Using
 Use RemoteAdmin for sending commands
 
 Required permission: `dblock.dlock`
