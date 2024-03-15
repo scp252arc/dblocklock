@@ -1,3 +1,6 @@
 # DBlockLock
 ## Locks all D-cell doors
-Required permission: "dblock.dlock"
+Helpful for events
+Required permission: `dblock.dlock`
+- `dlock` / `dlk` locks doors
+- `dunlock` / `duk` unlocks doors
