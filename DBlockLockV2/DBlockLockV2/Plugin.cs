@@ -13,7 +13,9 @@ namespace DBlockLockV2
 
         public override string Prefix => "DBlockLockV2";
 
-        public override Version Version => new Version(0, 1, 0);
+        public override Version Version => new Version(0, 1, 1);
+
+        public override Version RequiredExiledVersion { get; } = new Version(8, 8, 0);
 
         public static DBlockLockV2 Instance;
         SrvHandler _handler = new SrvHandler();
