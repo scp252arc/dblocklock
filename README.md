@@ -12,6 +12,7 @@ Use RemoteAdmin for sending commands
 Required permission: `dblock.dlock`
 - `dlock` / `dlk` locks doors
 - `dunlock` / `duk` unlocks doors
+  
 Required permission: `dblock.dnl`
 
 - `dnl` locks nearest door to you
