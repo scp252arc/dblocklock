@@ -16,4 +16,4 @@ Required permission: `dblock.dlock`
 Required permission: `dblock.dnl`
 
 - `dnl` locks nearest door to you
-- `dnr` unlocks nearest door to you
+- `dnu` unlocks nearest door to you
