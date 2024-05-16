@@ -13,7 +13,7 @@ namespace DBlockLockV2
 
         public override string Prefix => "DBlockLockV2";
 
-        public override Version Version => new Version(0, 2, 0);
+        public override Version Version => new Version(1, 0, 0);
 
         public override Version RequiredExiledVersion => new Version(8, 8, 0);
 
