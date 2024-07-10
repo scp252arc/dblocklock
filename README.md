@@ -1,4 +1,4 @@
-# DBlockLock
+# DBlockLock ![Downloads](https://img.shields.io/github/downloads/scp252arc/dblocklock/total)
 Locks all D-cell doors, helpful for events.
 
 ## Installation
